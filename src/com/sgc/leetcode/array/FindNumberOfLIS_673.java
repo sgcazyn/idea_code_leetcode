@@ -10,6 +10,8 @@ import java.util.Arrays;
 
 public class FindNumberOfLIS_673 {
 
+
+
     public int findNumberOfLIS(int[] nums) {
         int N = nums.length;
         if (N <= 1) return N;
