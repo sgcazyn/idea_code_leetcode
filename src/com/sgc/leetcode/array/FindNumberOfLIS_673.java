@@ -13,6 +13,8 @@ public class FindNumberOfLIS_673 {
 
 
     public int findNumberOfLIS(int[] nums) {
+
+        // 加点东西
         int N = nums.length;
         if (N <= 1) return N;
         int[] lengths = new int[N]; //lengths[i] = length of longest ending in nums[i]
